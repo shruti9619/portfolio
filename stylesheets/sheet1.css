@@ -38,6 +38,7 @@ body{
 background:url(http://cdn.wallpapersafari.com/93/76/zbnPcW.jpg) no-repeat center center fixed;
  	height:120vh;
  	width: 100vw;
+ 	background-size: cover;
 
 }
 
@@ -90,6 +91,7 @@ background:url(http://cdn.wallpapersafari.com/93/76/zbnPcW.jpg) no-repeat center
  
 background:url(http://ichef.bbci.co.uk/images/ic/1600xn/p02vf969.jpg)
 no-repeat center center fixed,linear-gradient(#923935, #673E44);
+background-size: cover;
  	/*height:140vh;
  	width: 100vw;*/
 }
@@ -113,6 +115,8 @@ no-repeat center center fixed,linear-gradient(#923935, #673E44);
 .create{
  	background: url('build2.jpg') no-repeat center center fixed black;/*#A9A9A9;*/
  	width: 100vw;
+ 	background-size: cover;
+
  }
 
  .createheading{
