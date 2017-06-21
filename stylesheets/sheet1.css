@@ -1,0 +1,158 @@
+
+body{
+	position: relative;
+	overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.nav.navbar-nav li a {
+	margin: 1vh;
+   color: #84ffff;
+   font-weight: bold;
+   font-family: 'Acme', sans-serif;
+   border: thin solid transparent; 
+   /*padding: 3px;*/
+ }
+
+ .nav.navbar-nav li a:hover {
+   border: thin solid #F39C12;
+   font-weight: bolder;
+   background-color: #6C7A89;
+   color: #F39C12;
+   z-index: 3 !important;
+ }
+
+ .navclass{
+ 	opacity: 0.7 !important;
+ 	z-index: 3 !important;
+ 	position: relative;
+ }
+
+ 
+
+.fullimgback{
+ 
+background:url(http://cdn.wallpapersafari.com/93/76/zbnPcW.jpg) no-repeat center center fixed;
+ 	height:120vh;
+ 	width: 100vw;
+
+}
+
+#homediv{
+	color: white;
+	font-weight: bold;
+ 	padding: 50px 10px 10px;
+ 	background-color: black;
+ 	font-family: 'Acme', sans-serif;
+ 	
+ }
+
+ #brandintro{
+ 	z-index: 1;
+ 	bottom: 4vh;
+ 	position: fixed;
+ 	color: white;
+ 	margin-left:  35vw;
+ 	margin-right: 30vw;
+ 	font-size: 4vw;
+ 	text-align: center;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	border: thick solid lightgrey;
+ }
+
+ #brandintro:hover{
+ 	border: thick solid grey;
+ 	filter: blur(2px);
+ }
+
+ .circle{
+ 	/**/
+ 	position: relative;
+ 	border-radius: 50%;
+ 	top:-50px;
+ 	left: 40vw;
+ 	height: 40vh;
+ 	width: 20vw;
+ 	border:thick solid #ECF0F1;
+ 	
+ }
+
+
+#aboutdiv{
+	background-color: lightgrey;
+}
+
+.skillboxfullimgback{
+ 
+background:url(http://ichef.bbci.co.uk/images/ic/1600xn/p02vf969.jpg)
+no-repeat center center fixed,linear-gradient(#923935, #673E44);
+ 	/*height:140vh;
+ 	width: 100vw;*/
+}
+
+.skillbox{
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 6vh; 
+	text-align: center;
+	color: Black;
+	font-weight: bold;
+	background-color:  linear-gradient(#923935, #673E44);
+	padding: 2vw;
+	/*max-height: 140vh;*/
+
+ }
+
+ .whiteborder{
+ 	border:thin solid white;
+ }
+
+.create{
+ 	background: url('build2.jpg') no-repeat center center fixed black;/*#A9A9A9;*/
+ 	width: 100vw;
+ }
+
+ .createheading{
+ 	margin-top: 2vh;
+ 	font-family: 'Patrick Hand SC', cursive;
+	font-size: 12vh; 
+	text-align: center;
+	color: white;
+	padding: 2vh;
+	margin-bottom: 30vh;
+ }
+
+.item-pic{
+  width: 30vw;
+  height: 40vh;
+  background: blue;
+  padding: 1vw;
+  border: 0.5vw solid white;
+  color: white;
+  text-align: center;
+  
+}
+
+.item-desc{
+  width: 30vw;
+  /*height: 40vh;*/
+  /*background: blue;*/
+  padding: 1vw;
+  border: thin solid white;
+  color: darkgreen;
+  background-color: rgba(204, 204, 179,0.6);
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vh;
+   font-family: 'Acme', sans-serif;
+ 
+}
+
+.stats{
+	width: 100vw;
+	color: white;
+	background:url("stats2.jpg") no-repeat center center fixed;
+}
