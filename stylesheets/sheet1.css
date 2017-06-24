@@ -120,7 +120,7 @@ background-size: cover;
  }
 
  .createheading{
- 	margin-top: 2vh;
+ 	/*margin-top: 2vh;*/
  	font-family: 'Patrick Hand SC', cursive;
 	font-size: 12vh; 
 	text-align: center;
@@ -160,4 +160,16 @@ background-size: cover;
 	color: white;
 	background:url("stats2.jpg") no-repeat center center fixed;
 	background-size: cover;
+}
+
+.progresscustom{
+	height: 10vh;
+	font-family: 'Patrick Hand SC', cursive;
+	margin-bottom: 10vh;
+}
+
+.inputbox{
+	height: 10vh;
+	border-radius: 20px;
+
 }
